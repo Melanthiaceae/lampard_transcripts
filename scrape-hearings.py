@@ -12,7 +12,7 @@ session.headers.update({
     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
 })
 
-BASE = 'https://www.postofficehorizoninquiry.org.uk/hearings/listing'
+BASE = 'https://lampardinquiry.org.uk/hearings/'
 
 def fetch_hearings():
     fetch_list(BASE, 'hearing-item-wrapper', fetch_hearing_page)
